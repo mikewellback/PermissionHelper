@@ -61,5 +61,7 @@ PermissionHelper.request(MainActivity.this, Manifest.permission.CAMERA, new Perm
 `motivationMessage()` is a message which tells the user that he have to grant the permission by pressing OK in the dialog which appears.
 The permission will be requested another time and he will have another chance to accept it.
 `denialMessage()` is the message which appears when the user totally denied the granting of the permission and it can't be requested anymore.
+
 You have to use string resources, so that you can easily translate those strings in other languages.
+
 Note that when you use this *motivational system*, `onForbidden` will be called only when the user totally refuses to accept permission and to see other permission request of the same kind. Which means, it gets called only when the `denialMessage` is shown.
