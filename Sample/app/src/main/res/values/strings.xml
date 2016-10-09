@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PermissionHelper</string>
+    <string name="turn_on_light">Turn ON light</string>
+    <string name="turn_off_light">Turn OFF light</string>
+    <string name="motivation_flashlight">You should grant permission to use torch. Press OK to give permission.</string>
+    <string name="denial_flashlight">You should grant permission to use torch. Press OK to give permission.</string>
+</resources>
